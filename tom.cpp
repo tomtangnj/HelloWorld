@@ -15,3 +15,7 @@ int fibonacci(int i) {
 	return ret;
 }
 
+void testFunc() {
+	int i = fibonacci(3);
+	assertEquals(i, 2);
+}
